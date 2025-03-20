@@ -12,6 +12,8 @@ This repository contains exercises demonstrating the **SOLID Principles** in obj
 - **Before**: A `Pet` class handles both attributes and behaviors.
 - **After**: Split into `Pet` (attributes) and `PetBehavior` (interface for behaviors).
 
+<hr/>
+
 ### 2. Open/Closed Principle (OCP)
 **Description**:
 - Classes should be **open for extension but closed for modification**.
@@ -21,6 +23,8 @@ This repository contains exercises demonstrating the **SOLID Principles** in obj
 - **Before**: `Customer` class uses `if-else` to determine discount.
 - **After**: Introduced `DiscountStrategy` interface with `StudentDiscount`, `SeniorDiscount`, etc.
 
+<hr/>
+
 ### 3. Interface Segregation Principle (ISP)
 **Description**:
 - Clients should **not be forced** to implement interfaces they don't use.
@@ -29,6 +33,8 @@ This repository contains exercises demonstrating the **SOLID Principles** in obj
 **Example**:
 - **Before**: A `Smartphone` interface forces `BasicPhone` to implement web browsing & camera features.
 - **After**: Split interfaces into smaller ones: `CallAndSMS`, `WebBrowsing`, and `Camera`.
+
+<hr/>
 
 ### 4. Dependency Inversion Principle (DIP)
 **Description**:
